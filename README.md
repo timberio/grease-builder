@@ -7,6 +7,7 @@ This Docker image is used with CircleCI 2.0 to build
 ## Contents
 
   - git: For cloning the repository in CircleCI
+  - grease: For managing grease's own releases on GitHub
   - make: Build tool
   - sed: Required for parsing text to produce release notes
   - openssh: Required for git to fetch repositories on CircleCI
